@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome my Fab Academy site!</title>
-  <meta name="description" content="It is an exciting moment finally the Fab Academy begin!After a long time waiting for it and a three hour car journey from Pesaro to Pisa i am at Fablab Casci...">
+  <title>Christian Gabbani @ Fabacademy 2015</title>
+  <meta name="description" content="This site is the diary of an adventure on the path of "How to build almost anything".">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://githubgeo.github.io/news/2015/01/28/welcome-to-fabacademy.html">
-  <link rel="alternate" type="application/rss+xml" title="Fabacademy 2015 - A journey in the knowledge of making things" href="http://githubgeo.github.io/feed.xml" />
+  <link rel="canonical" href="http://githubgeo.github.io/.old">
+  <link rel="alternate" type="application/rss+xml" title="Christian Gabbani @ Fabacademy 2015" href="http://githubgeo.github.io/feed.xml" />
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Fabacademy 2015 - A journey in the knowledge of making things <img src="/images/logo_fablab_s1.png" width="150" alt="Logo Fablab S1"></a>
+    <a class="site-title" href="/"> <img src="/images/logo-fabaacademy.jpg" width="80" alt="Logo Fabacademy"> Christian Gabbani @ Fabacademy 2015</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -47,6 +47,10 @@
           
         
           
+          <a class="page-link" href="/index.html">Welcome to my Fab Academy site!</a>
+          
+        
+          
           <a class="page-link" href="/finalproject/index.html">Final project</a>
           
         
@@ -62,20 +66,15 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="post">
+        <div class="home">
 
-  <header class="post-header">
-    <h1 class="post-title">Welcome my Fab Academy site!</h1>
-    <p class="post-meta">Jan 28, 2015</p>
-  </header>
+  <h1 class="page-heading">Posts</h1>
 
-  <article class="post-content">
-    <p>It is an exciting moment finally the Fab Academy begin!
-After a long time waiting for it and a three hour car journey from Pesaro to Pisa i am at Fablab Cascina waiting the connection.</p>
+  <ul class="post-list">
+    
+  </ul>
 
-<p>May the force be with you. </p>
-
-  </article>
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
 
@@ -86,12 +85,12 @@ After a long time waiting for it and a three hour car journey from Pesaro to Pis
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Fabacademy 2015 - A journey in the knowledge of making things</h2>
+    <h2 class="footer-heading">Christian Gabbani @ Fabacademy 2015</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>Fabacademy 2015 - A journey in the knowledge of making things</li>
+          <li>Christian Gabbani @ Fabacademy 2015</li>
           <li><a href="mailto:christian.gabbani@gmail.com">christian.gabbani@gmail.com</a></li>
         </ul>
       </div>
