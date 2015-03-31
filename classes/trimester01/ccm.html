@@ -143,9 +143,70 @@
 
 <h2 id="introduction">Introduction</h2>
 
+<p>I am triyng to build a baby chair (Fabbolone) starting from an existent design (Tripp Trapp from Stokke) adding to it a plane where you can put baby’s toys and/or food.</p>
+
 <h2 id="learning-path">Learning path</h2>
-<p>This <span style="color:red">word</span> is not black.
-This <span style="color:green">word</span> is not black.</p>
+
+<ul>
+  <li>Design the fabbolone with Solid Works
+    <ul>
+      <li>firts problem: i used a lot of constructionn line: the file seem a mess.</li>
+      <li>second problem: it was difficult to extrude the parts in one process. I think that it is not the correct way to proceed</li>
+      <li>solution to problems above: cleaning the design (erase construction line) and then extruded single surfaces of each pieces. Good extrusion, good results. This process is not necessary for the process of milling but it was a good exercise to learn Solidworks</li>
+    </ul>
+  </li>
+  <li>Export the single pieces in dxf (needed photo of the process)</li>
+  <li>Milling machine: shapeoko modified with a powerfull spindle and a nema motor 22 on z axis. All the motors are powered with 36 v and professional driver. The machine is connected via serial cable to a pc with LinuxCNC installed</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="./driver.jpg" alt="Driver" /></td>
+      <td><img src="./linuxcnc.jpg" alt="Linux CNX" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>The CAM we used is Cambam. Importing in it the dxf i prepare the cam version of single pieces of fabbolone.</li>
+  <li>The cam files are saved in .ngc format (gcode) and sended via Linux CNC to the milling machine</li>
+  <li>It is important to set the machine, choose the right milling tip for the work, then testing the milling machine with the z axis up (flying test). </li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="./setuptools.jpg" alt="Set up tools" /></td>
+      <td><img src="./specialmillingtips.jpg" alt="Special milling tips" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>If all the steps abov are ok it is possible to proceed. </li>
+</ul>
+
+<p><img src="./millingprocess.jpg" alt="Milling process" /></p>
+
+<ul>
+  <li>Problem: the first piece milled is not what i want. Analyzing the file in cambam we saw that something was wrong.</li>
+</ul>
+
+<p><img src="./badmillinresult.jpg" alt="Bad milling result" /></p>
+
+<ul>
+  <li>The next step is to correct cambam files and proceed to mill it again.</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="./wrongcambam.jpg" alt="Wrong piece" /></td>
+      <td><img src="correctcambam.jpg" alt="Correct piece" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="conclusion">Conclusion</h2>
 
