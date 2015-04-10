@@ -150,11 +150,25 @@
 <ul>
   <li>Design the fabbolone with Solid Works
     <ul>
-      <li>firts problem: i used a lot of constructionn line: the file seem a mess.</li>
+      <li>first problem: i used a lot of constructionn line: the file seem a mess.</li>
       <li>second problem: it was difficult to extrude the parts in one process. I think that it is not the correct way to proceed</li>
       <li>solution to problems above: cleaning the design (erase construction line) and then extruded single surfaces of each pieces. Good extrusion, good results. This process is not necessary for the process of milling but it was a good exercise to learn Solidworks</li>
+      <li>Another big problem was to generate simmetrical pieces of the project: i tried to use the specular function in various way: on the 3d part and on the sketch but it was nota simple task and the result is not good.</li>
+      <li>Solution that i found to generate the specular pieces of my project was to extrude the sketch one time up to the plane and the other time down the plane. This easy trick was my salvation.</li>
     </ul>
   </li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="./upextrusion.jpg" alt="UpExtrusion" /></td>
+      <td><img src="./downextrusion.jpg" alt="DownExtrusion" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
   <li>Export the single pieces in dxf (needed photo of the process)</li>
   <li>Milling machine: shapeoko modified with a powerfull spindle and a nema motor 22 on z axis. All the motors are powered with 36 v and professional driver. The machine is connected via serial cable to a pc with LinuxCNC installed</li>
 </ul>
@@ -184,7 +198,7 @@
 </table>
 
 <ul>
-  <li>If all the steps abov are ok it is possible to proceed. </li>
+  <li>If all the steps above are ok it is possible to proceed. </li>
 </ul>
 
 <p><img src="./millingprocess.jpg" alt="Milling process" /></p>
